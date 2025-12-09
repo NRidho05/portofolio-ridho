@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?familly=Poppins:wght@300;400;500;600;700;800;900;&display=swap');
+
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: linear-gradient(to bottom,#001f3f,#000000);
+}
+
+.navbar {
+    position: fixed;
+    display: flex;
+    background: yellow;
+    color: white;
+    border-radius: 20px;
+    
+}
+
+.navbar h3 {
+    padding-left: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aqua;
+}
+
+.navbar ul li {
+    padding-left: 530px;
+    padding-right: 10px;
+    list-style: none;
+    word-spacing: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    color: aqua;
+}
+
+.home {
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    padding-left: 70px;
+}
+
+.home img {
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 0 60px rgba(225,225,225,0.7);
+    border-radius: 50%;
+    animation-name: h2;
+    animation-duration: 2s;
+}
+
+
+.teks {
+    padding-right: 450px;
+    padding-top: 20px;
+}
+
+.teks h1 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    animation-name: h1;
+    animation-duration: 2s;
+}
+
+@keyframes h1 {
+    from{
+        margin-top: 100%;
+    }
+    to {
+        margin-top: 0%;
+    }
+}
+
+.teks h2 {
+    color: aqua;
+    animation-name: h2;
+    animation-duration: 2s;
+}
+
+@keyframes h2 {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.teks h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 68, 255);
+}
+
+.teks h4 a {
+    color: white;
+}
+
+.home-sci {
+    padding-top: 20px;
+}
+
+.home-sci a i{
+    color: white;
+}
+
+.o a{
+    color: black;
+    margin-left: 80px;
+    padding: 10px;
+    background-color: aqua;
+    border-radius: 40px;
+    text-decoration: none;
+}
+
+.o a:hover {
+    box-shadow: 0 0 20px rgb(111, 120, 120);
+}
+
+.homeikon a i{
+    width: 20px;
+    height: 18px;
+    color: rgb(198, 200, 227);
+    margin-left: 40px;
+    padding-left: 10px;
+    border-radius: 6px;
+}
+
+.p {
+    padding-top: 20px;
+}
+
+.p2 {
+    padding-top: 100px;
+    color: aliceblue;
+    display: flex;
+    padding-left: 140px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.p2 h1 {
+    color: aqua;
+}
+
+.p2 h3 {
+    color: rgb(98, 98, 192);
+}
+
+.gambar {
+    width: 300px;
+    height: 300px;
+    margin-right: 20%;
+    border-radius: 50%;
+    box-shadow: 0 0 60px rgba(41, 147, 186, 0.7);
+}
+
+.oi {
+    padding-top: 30px;
+}
+
+.oi a{
+    color: white;
+    margin-left: 900px;
+    padding: 10px;
+    background-color: rgb(10, 86, 161);
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.space {
+    padding-top: 130px;
+}
+
+.my {
+    margin-bottom: 90px;
+    padding-left: 510px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.my h1 {
+    color: aqua;
+}
+
+.my cite {
+    color: white;
+}
+
+.myservis {
+    display: flex;
+    margin-right: 40px;
+}
+
+.my1 {
+    width: 240px;
+    height: 380px;
+    margin-left: 130px;
+    background-color:linear-gradient(to bottom,#001f3f,#000000);
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgb(10, 78, 186);
+    color: white;
+}
+
+.my1 img {
+    width: 70px;
+    height: 70px;
+    border-radius: 40px;
+    margin-left: 90px;
+    margin-top: 20px;
+    box-shadow: 0 0 20px rgb(10, 78, 186);
+}
+
+.my1 h2 {
+    padding-left: 50px;
+}
+
+.my1 p {
+    padding-left: 20px;
+    font-size: 14px;
+}
+
+.my1 a {
+    margin-left: 65px;
+}
+.my1 a {
+    width: 90px;
+    padding: 10px;
+    margin-left: 70px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(24, 74, 159);
+    border-radius: 20px;
+}
+
+.my1:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 50px red;
+}
+
+.my1 a:hover {
+    box-shadow: 0 0 50px rgb(24, 74, 159);
+}
+
+.my2 {
+    width: 240px;
+    height: 380px;
+    margin-left: 130px;
+    background-color:linear-gradient(to bottom,#001f3f,#000000);
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgb(10, 78, 186);
+    color: white;
+}
+
+.my2 img {
+    width: 70px;
+    height: 70px;
+    border-radius: 40px;
+    margin-left: 90px;
+    margin-top: 20px;
+    box-shadow: 0 0 20px rgb(10, 78, 186);
+}
+
+.my2 h2 {
+    padding-left: 50px;
+}
+
+.my2 p {
+    padding-left: 20px;
+    font-size: 14px;
+}
+
+.my2 a {
+    margin-left: 65px;
+}
+.my2 a {
+    width: 90px;
+    padding: 10px;
+    margin-left: 70px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(24, 74, 159);
+    border-radius: 20px;
+}
+
+.my2:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 50px red;
+}
+
+.my2 a:hover {
+    box-shadow: 0 0 50px rgb(24, 74, 159);
+}
+
+.my3 {
+    width: 240px;
+    height: 380px;
+    margin-left: 130px;
+    background-color:linear-gradient(to bottom,#001f3f,#000000);
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgb(10, 78, 186);
+    color: white;
+}
+
+.my3 img {
+    width: 70px;
+    height: 70px;
+    border-radius: 40px;
+    margin-left: 90px;
+    margin-top: 20px;
+    box-shadow: 0 0 20px rgb(10, 78, 186);
+}
+
+.my3 h2 {
+    padding-left: 50px;
+}
+
+.my3 p {
+    padding-left: 20px;
+    font-size: 14px;
+}
+
+.my3 a {
+    margin-left: 65px;
+}
+.my3 a {
+    width: 90px;
+    padding: 10px;
+    margin-left: 70px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(24, 74, 159);
+    border-radius: 20px;
+}
+
+.my3:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 50px red;
+}
+
+.my3 a:hover {
+    box-shadow: 0 0 50px rgb(24, 74, 159);
+}
+
+
+.sp2 {
+    padding-top: 50px;
+}
+
+.skil {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.skil h1 {
+    color: aqua;
+}
+
+.skil h1 b {
+    color: white;
+}
+
+.myskil {
+    display: flex;
+    margin-left: 25px;
+
+}
+
+.html img {
+    width: 200px;
+    height: 200px;
+    margin-top: 90px;
+    margin-left: 150px;
+    border-radius: 50%;
+    box-shadow: 0 0 50px rgb(24, 74, 159);
+    background-color: white;
+}
+
+.persen {
+    display: flex;
+}
+
+.persen p{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    margin-left: 250px;
+}
